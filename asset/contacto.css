@@ -1,0 +1,22 @@
+
+main{
+    margin: 1rem;
+    border: solid black;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+/* contenido especifico de formilarios inicio y registro */
+.formulario{
+    margin: 1rem;
+    border: solid black;
+    display: flex;
+}
+
+/* parte de ubicacion y informacion sobre el lugar */
+.ubicacion{
+    margin: 1rem;
+    border: solid black;
+    display: flex;
+}
+
