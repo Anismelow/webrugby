@@ -22,26 +22,26 @@ main{
     /* border: solid black; */
     /* display: flex; */
 }
-.ubicacion > iframe{
-width: 39rem;
-height: 20rem;
-}
-/* .redes{
 
-} */
+/* tamaño del mapa google */
+.sticky > iframe{
+width: 48rem;
+height: 30rem;
+}
 
 /* zona derecha sticky */
 .sticky{
     border: solid black;
     height: min-content;
     position: sticky;
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
     top: 0;
 }
 
 /* opciones de registrado o no */
 .preguntainicio{
-    margin: 12rem;
+    border: solid black;
+    padding: 16rem;
     text-align: center;
 }
 
