@@ -17,8 +17,6 @@ main{
 .ubicacion{
     margin: 1rem;
     display:grid;
-    position: sticky;
-    position:-webkit-sticky;
     right: 0;
     margin-right: 3rem;
     /* border: solid black; */
@@ -31,6 +29,15 @@ height: 20rem;
 /* .redes{
 
 } */
+
+/* zona derecha sticky */
+.sticky{
+    border: solid black;
+    height: min-content;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
 
 /* opciones de registrado o no */
 .preguntainicio{
