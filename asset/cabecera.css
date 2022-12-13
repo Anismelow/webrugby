@@ -1,8 +1,13 @@
-*{
+
+*{ 
+    box-sizing: border-box;
+     height: auto;
+    width: auto;
     margin: 0;
 }
 
 .container{
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -10,24 +15,30 @@
 }
 
 .logo img {
+
     border-radius: 50%;
-    width: 100px;
+    width: 100%;
+    height: auto;
 }
 
 .logo{
     margin:20px 0px 40px 20px;
 }
 
-.barra-navegacion{ 
-margin-top: 50px;
-margin-right: 90px;
-
+.barra-navegacion{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 90px;
+    justify-content: center;
 }
 .btn {
+    
    text-decoration: none;
    color: white;
   padding: 10px 30px;
- font-size: 1.3rem;
+ font-size: 1.5rem;
 }
 .imagen{
     margin-top: 10px;
@@ -35,22 +46,28 @@ margin-right: 90px;
 }
 .imagen img{
     width: 100%;
+    height: auto;
+
 }
 
 .temporada{
+    
     justify-content: center;
     padding: 10rem 0px;
-    width: 100%;
+    width: auto;
     display:inline-flex;
 }
 .h2{
     margin-top: 5rem;
-    font-size: 6rem;
+    font-size: 3rem;
+}
+.temporada{
+    display: flex;
 }
 
 .temporada iframe{
-    height: 40rem;
-    width: 40rem;
+    height: auto;
+    width: 100%;
 }
 
 .btn-temporada{
