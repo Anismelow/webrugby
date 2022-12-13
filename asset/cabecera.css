@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     background-color:rgb(1, 82, 1);
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.logo{
+    margin:20px 0px 40px 20px;
+}
+
+.barra-navegacion{ 
+margin-top: 50px;
+margin-right: 90px;
+
+}
+.btn {
+   text-decoration: none;
+   color: white;
+  padding: 10px 30px;
+ font-size: 1.3rem;
+}
+.imagen{
+    margin-top: 10px;
+    text-align: center;
+}
+.imagen img{
+    width: 100%;
+}
+
+.temporada{
+    justify-content: center;
+    padding: 10rem 0px;
+    width: 100%;
+    display:inline-flex;
+}
+.h2{
+    margin-top: 5rem;
+    font-size: 6rem;
+}
+
+.temporada iframe{
+    height: 40rem;
+    width: 40rem;
+}
+
+.btn-temporada{
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.btn-temporada a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
