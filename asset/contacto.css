@@ -6,17 +6,49 @@ main{
     grid-template-columns:1fr 1fr;
 }
 
-/* contenido especifico de formilarios inicio y registro */
+/* Parte entera de la izquierda. contenido especifico de formularios inicio y registro */
 .formulario{
     margin: 1rem;
     border: solid black;
-    display: flex;
+    /* display: flex; */
 }
 
-/* parte de ubicacion y informacion sobre el lugar */
+/* parte de ubicacion y informacion sobre el lugar y redes para contacto */
 .ubicacion{
     margin: 1rem;
+    display:grid;
+    right: 0;
+    margin-right: 3rem;
+    /* border: solid black; */
+    /* display: flex; */
+}
+.ubicacion > iframe{
+width: 39rem;
+height: 20rem;
+}
+/* .redes{
+
+} */
+
+/* zona derecha sticky */
+.sticky{
     border: solid black;
-    display: flex;
+    height: min-content;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
+/* opciones de registrado o no */
+.preguntainicio{
+    margin: 12rem;
+    text-align: center;
+}
+
+/* formulario usuario y contraseña */
+.iniciarsesion > form{
+display: grid;
+}
+.iniciarsesion{
+    padding-top: 12rem;
+}
