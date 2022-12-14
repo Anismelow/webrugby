@@ -1,9 +1,10 @@
 *{
     border: 1rem;
-    color: solid 1px black;
+    color: solid 6px black;
 }
 .container {
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     flex-direction: column;
     margin: 10rem 10rem 10rem 10rem;
@@ -25,21 +26,26 @@
 }
 .imagen {
     justify-content: right;
+
 }
 
 .objetivos {
-    flex-direction: row-reverse;
-    justify-content: space-between; 
+    display: flex;
+    border:  1px solid black;
+    flex-direction: column;
+    
 } 
-.objetivos img{
-    justify-content: flex-end;
+
+.objetivos1{
+display: flex;
+flex-direction: row-reverse;
 }
-.objetivos1 {
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    /* border: 1px solid black; */
-} 
-.obejetivos .objetivos1 .imagen {
-    align-self: flex-end;
-    border: 1px solid black;
+
+.objetivos2{
+display: flex;
+flex-direction: row-reverse;
+}
+
+.objetivos3{
+
 }
