@@ -79,19 +79,14 @@ height: 30rem;
 .iniciarsesion > form{
 display:none;
 }
-.estoyiniciado:hover > .iniciarsesion{
-    
-}
+
 .estoyiniciado:hover > .iniciarsesion > form{
     display: grid;
     padding-left: 4rem;
     padding-right: 4rem;
 }
-.iniciarsesion{
-    
-}
 
 /* formulario de registro */
-.registrarse > form{
-
+#registrarse > form > input{
+    margin-bottom: 0.5rem;
 }
