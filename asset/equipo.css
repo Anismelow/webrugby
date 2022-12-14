@@ -11,3 +11,17 @@ width: 90%;
 .femenino img{
     width: auto 90%;
 }
+.jugadores{
+    text-align: left;
+    color: brown;
+    width: 30em;
+    height:30em;
+    display: line;
+}
+
+.jugadores img {
+    display: flex;
+    border:  3px solid grey;
+    width: 50%;
+    
+}
