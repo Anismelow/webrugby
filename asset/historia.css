@@ -1,51 +1,76 @@
-*{
+/* *{
     border: 1rem;
     color: solid 6px black;
-}
-.container {
+} */
+.micontainer {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
     flex-direction: column;
     margin: 10rem 10rem 10rem 10rem;
 }
-.container img {
+.micontainer img {
     justify-content: right;
-    max-width: 40%;
+    max-width: 50%;
     align-items: right;
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
     margin-bottom: 1rem;
     /* flex-shrink: inherit; */
 }
-.header {
+.miheader {
     margin-bottom: 5rem;
 }
-.texto {
+/* .texto {
     align-items: left;
     max-width: 40%;
+    /* padding-right: 2rem; */
 }
 .imagen {
     justify-content: right;
+    padding-left: 5rem;
 
-}
+} */
 
 .objetivos {
     display: flex;
-    border:  1px solid black;
+    /* border:  1px solid black; */
     flex-direction: column;
+    padding: 5rem 5rem 5rem 5rem;
     
 } 
 
 .objetivos1{
 display: flex;
 flex-direction: row-reverse;
+align-items: center;
 }
 
 .objetivos2{
 display: flex;
 flex-direction: row-reverse;
+align-items: center;
 }
 
 .objetivos3{
+    display: flex;
+flex-direction: row-reverse;
+align-items: center;
 
+}
+.objetivos4{
+    display: flex;
+flex-direction: row-reverse;
+align-items: center;
+/* max-height: min-content; */
+
+}
+.objetivos img {
+    max-width: 50%;
+    /* max-height: 20rem; */
+}
+.objetivos p{
+    max-width: 50%;
+    justify-self: left;
+    padding-right: 5rem;
+    /* justify-content: left; */
 }
