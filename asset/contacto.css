@@ -3,7 +3,7 @@ main{
     margin: 1rem;
     border: solid black;
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2, 1fr);
 }
 
 /* Parte entera de la izquierda. contenido especifico de formularios inicio y registro */
@@ -19,13 +19,14 @@ main{
     display:grid;
     right: 0;
     margin-right: 3rem;
+    width: fit-content;
     /* border: solid black; */
     /* display: flex; */
 }
 
 /* tamaño del mapa google */
 .sticky > iframe{
-width: 48rem;
+width: 40rem;
 height: 30rem;
 }
 
@@ -40,15 +41,52 @@ height: 30rem;
 
 /* opciones de registrado o no */
 .preguntainicio{
+    padding-left: 1rem;
+    padding-right: 1rem;
     border: solid black;
-    padding: 16rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
     text-align: center;
+    height: 35rem;
+}
+.estoyiniciado{
+    border: solid black;
+    height: 50%;
+    padding-top: 7rem;
+
 }
 
+.noestoyiniciado{
+    background-color: aqua;
+    border: solid black;
+    height: 50%;
+    padding-top: 7rem;
+}
+.estoyiniciado > p{
+    margin-bottom: 0.5rem
+}
+.noestoyiniciado > p{
+    margin-top: 1rem;
+}
+
+/* linea divisoria pregunta de inicio */
+.linea{
+    border: dotted black;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 /* formulario usuario y contraseña */
 .iniciarsesion > form{
-display: grid;
+display:none;
 }
-.iniciarsesion{
-    padding-top: 12rem;
+
+.estoyiniciado:hover > .iniciarsesion > form{
+    display: grid;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/* formulario de registro */
+#registrarse > form > input{
+    margin-bottom: 0.5rem;
 }

@@ -13,9 +13,9 @@
         <div class="logo"><img src="/asset/img/logo-gernikarugby-125x125-1.jpg" alt="logo equipo de rugby de gernika"></div>
 
         <nav class="barra-navegacion">
-            <a href="asset/cabecera.html" class="btn">home</a>
+            <a href="cabecera.html" class="btn">home</a>
             <a href="historia.html" class="btn">historia</a>
-            <a href="asset/equipo.css" class="btn">equipos</a>
+            <a href="equipo.html" class="btn">equipos</a>
             <a href="patrocinadores1.html" class="btn">patrocinadores</a>
             <a href="" class="btn">contacto</a>
         </nav>
@@ -26,31 +26,50 @@
             <div class="preguntainicio">
                 <div class="estoyiniciado">
                     <p>Estoy registrado</p>
+                    <div class="iniciarsesion">
+                        <form>
+                            <label for="usuario_inicio">Usuario</label>
+                            <input type="text" id="usuario_inicio" name="usuario_inicio" placeholder="Tu usuario...">
+                            <label for="contraseña_inicio">Contraseña</label>
+                            <input type="password" id="contraseña_inicio" name="contraseña_inicio">
+                            <input type="button" value="Entrar" class="boton_inicio">
+                        </form>
+                    </div>
                 </div>  
-
-                <div class="noestoyiniciado">
+                            <!-- linea que divide el primer div en dos -->
+                            <!-- <div class="linea"></div>  -->
+                <a href="contacto.html#registrarse"><div class="noestoyiniciado">
                     <p>No estoy registrado</p>
-                </div>
+                </div></a>
             </div>
 
 
 
-            <div class="iniciarsesion">
+            
+
+            <div id="registrarse">
                 <form>
-                    <label for="usuario_inicio">Usuario</label>
-                    <input type="text" id="usuario_inicio" name="usuario_inicio" placeholder="Tu usuario...">
-                    <label for="contraseña_inicio">Contraseña</label>
-                    <input type="password" id="contraseña_inicio" name="contraseña_inicio">
+                    <label for="nombre_registro">Tu Nombre:</label><br>
+                    <input type="text" id="nombre_registro" name="nombre_registro"><br>
+                    <label for="apellidos_registro">Apellidos:</label><br>
+                    <input type="text" id="apellidos_registro" name="apellidos_registro"><br>
+                    <label for="fecha_nacimiento_registro">Fecha de nacimineto:</label><br>
+                    <input type="date" id="fecha_nacimiento_registro" name="fecha_nacimiento_registro"><br>
+                    <label for="email_registro">Email:</label><br>
+                    <input type="email" id="email_registro" name="email_registro"><br>
+                    <label for="telefono_registro">Numero de telefono</label><br>
+                    <input type="tel" id="telefono_registro" name="telefono_registro"><br>
+                    <label for="usuario_registro">Nombre de usuario nuevo:</label><br>
+                    <input type="text" id="usuario_registro" name="usuario_registro"><br>
+                    <label for="contraseña_registro">Contraseña Nueva</label><br>
+                    <input type="password" id="contraseña_registro" name="contraseña_registro"><br>
+                    <!-- faltaria js -->
+                    <label for="confirmacion_contraseña_registro">Confirmacion de contraseña</label><br>
+                    <input type="password" id="onfirmacion_contraseña_registro" name="onfirmacion_contraseña_registro"><br>
+                    <input type="checkbox" id="noticias_checkbox" name="noticias_checkbox">
+                    <label for="noticias_checkbox">Al marcar esta casilla, acepto recibir actualizaciones, información y ofertas de Gernika rugby y sus afiliados por correo electrónico y teléfono a la información de contacto indicada anteriormente. Entiendo que puedo retirar mi consentimiento en cualquier momento</label><br>
+                    <input type="button" value="Registrarse" class="boton_registro">
                 </form>
-            </div>
-
-            <div class="registrarse">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
             </div>
         </div>
 
@@ -66,5 +85,8 @@
             </div>
         </div>
     </main>
+    <footer>
+        <p>texto texto texto</p>
+    </footer>
 </body>
 </html>
