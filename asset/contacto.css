@@ -48,7 +48,12 @@ height: 30rem;
     padding-bottom:16rem ;
     text-align: center;
 }
-
+.estoyiniciado{
+    border: solid black;
+}
+.noestoyiniciado{
+    border: solid black;
+}
 .estoyiniciado > p{
     margin-bottom: 0.5rem;
 }
