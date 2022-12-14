@@ -41,22 +41,35 @@ height: 30rem;
 
 /* opciones de registrado o no */
 .preguntainicio{
-    padding-left: 8rem;
+    padding-left: 7rem;
     padding-right: 7rem;
     border: solid black;
     padding-top: 12rem;
     padding-bottom:16rem ;
-    text-align: initial;
+    text-align: center;
 }
 
 .estoyiniciado > p{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
-
+.noestoyiniciado > p{
+    margin-top: 1rem;
+}
 /* formulario usuario y contraseña */
 .iniciarsesion > form{
-display: grid;
+display:none;
+}
+.estoyiniciado:hover{
+
+}
+.estoyiniciado:hover > .iniciarsesion > form{
+    display: grid;
 }
 .iniciarsesion{
     
+}
+
+/* formulario de registro */
+.registrarse > form{
+display: grid;
 }
