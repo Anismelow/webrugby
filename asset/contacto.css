@@ -3,7 +3,7 @@ main{
     margin: 1rem;
     border: solid black;
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2, 1fr);
 }
 
 /* Parte entera de la izquierda. contenido especifico de formularios inicio y registro */
@@ -19,13 +19,14 @@ main{
     display:grid;
     right: 0;
     margin-right: 3rem;
+    width: fit-content;
     /* border: solid black; */
     /* display: flex; */
 }
 
 /* tamaño del mapa google */
 .sticky > iframe{
-width: 48rem;
+width: 40rem;
 height: 30rem;
 }
 
@@ -40,9 +41,16 @@ height: 30rem;
 
 /* opciones de registrado o no */
 .preguntainicio{
+    padding-left: 8rem;
+    padding-right: 7rem;
     border: solid black;
-    padding: 16rem;
-    text-align: center;
+    padding-top: 12rem;
+    padding-bottom:16rem ;
+    text-align: initial;
+}
+
+.estoyiniciado > p{
+    margin-bottom: 1rem;
 }
 
 /* formulario usuario y contraseña */
@@ -50,5 +58,5 @@ height: 30rem;
 display: grid;
 }
 .iniciarsesion{
-    padding-top: 12rem;
+    
 }
