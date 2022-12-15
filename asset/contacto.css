@@ -15,14 +15,17 @@
 }
 /* main-------------------------------------------- */
 main{
+    background-color: #D0E64B;
     margin: 1rem;
     border: solid black;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
+    
 }
 
     /* Izquierda---. contenido especifico de formularios inicio y registro */
     .formulario{
+        background-color: #EF9D54;
         margin: 1rem;
         border: solid black;
         /* display: flex; */
@@ -55,6 +58,7 @@ main{
                 /* Formulario de inicio que aparece con hover */
                 .iniciarsesion > form{
                     display:none;
+                    align-items: center;
                     }
                 
                 .estoyiniciado:hover{
@@ -86,11 +90,12 @@ main{
 
         /* formulario de registro, segundo div general de la izquierda */   
         #registrarse{
+            background-color: #E86946;
             border: solid black;
             margin:1rem;
+            padding: 1rem;
             padding-left: 1rem;
-            padding-right: 3rem;
-            
+            padding-right: 3rem;    
         }
 
 
