@@ -17,7 +17,6 @@
 main{
     background-color: #D0E64B;
     margin: 1rem;
-    border: solid black;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     
@@ -25,9 +24,8 @@ main{
 
     /* Izquierda---. contenido especifico de formularios inicio y registro */
     .formulario{
-        background-color: #EF9D54;
+        background-color:#FFA100;
         margin: 1rem;
-        border: solid black;
         /* display: flex; */
     }
 
@@ -35,20 +33,19 @@ main{
         .preguntainicio{
             padding-left: 1rem;
             padding-right: 1rem;
-            border: solid black;
             padding-top:0.5rem;
             padding-bottom:0.5rem;
             text-align: center;
             height: 35rem;
-            background-color: #0A3A4A;
+            background-color: #D8F2F0;
         }  
 
             /* "parte de arriba del primer div" */
             .estoyiniciado{
-                border: solid black;
                 height: 50%;
                 padding-top: 7rem;
                 background-color: #196674;
+                border-bottom:solid rgb(91, 91, 173) 0.5rem;
             }
 
             .estoyiniciado > p{
@@ -73,11 +70,11 @@ main{
 
             /* Segunda partde del primer div de opcion a registrarse */
             .noestoyiniciado{ 
-                border: solid black;
                 height: 50%;
                 padding-top: 7rem;
                 text-decoration: none;
                 background-color: #196674;
+                border-top: solid rgb(91, 91, 173) 0.5rem;
             }
             
             .noestoyiniciado > p{
@@ -90,8 +87,7 @@ main{
 
         /* formulario de registro, segundo div general de la izquierda */   
         #registrarse{
-            background-color: #E86946;
-            border: solid black;
+            background-color:#93A605;
             margin:1rem;
             padding: 1rem;
             padding-left: 1rem;
@@ -112,7 +108,7 @@ main{
 
         /* zona derecha sticky */
         .sticky{
-            border: solid black;
+            background-color: #E5EFFA;
             height: min-content;
             position: sticky;
             /* position: -webkit-sticky; */
@@ -124,3 +120,12 @@ main{
             width: 40rem;
             height: 30rem;
         }
+
+        /* redes sociales e iconos */
+        .redes{
+            border: solid black;
+        }
+            /* cada red social especifica */
+            .gmail{
+                border: solid black;
+            }
