@@ -1,10 +1,5 @@
 
-main{
-    margin: 1rem;
-    border: solid black;
-    display: grid;
-    grid-template-columns:repeat(2, 1fr);
-}
+
 
 /* Parte entera de la izquierda. contenido especifico de formularios inicio y registro */
 .formulario{
@@ -86,7 +81,22 @@ display:none;
     padding-right: 4rem;
 }
 
-/* formulario de registro */
+/* formulario de registro */   
+#registrarse{
+    margin-left: 5rem;
+}
 #registrarse > form > input{
     margin-bottom: 0.5rem;
+    width: 20rem;
+}
+/* input[type="checkbox"] {
+    width: 10rem;
+} */
+
+/* main-------------------------------------------- */
+main{
+    margin: 1rem;
+    border: solid black;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
 }
