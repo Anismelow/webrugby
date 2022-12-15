@@ -10,6 +10,9 @@
 /* input[type="checkbox"] {
     width: 10rem;
 } */
+*{
+    text-decoration: none;
+}
 /* main-------------------------------------------- */
 main{
     margin: 1rem;
@@ -34,6 +37,7 @@ main{
             padding-bottom:0.5rem;
             text-align: center;
             height: 35rem;
+            background-color: #0A3A4A;
         }  
 
             /* "parte de arriba del primer div" */
@@ -41,6 +45,7 @@ main{
                 border: solid black;
                 height: 50%;
                 padding-top: 7rem;
+                background-color: #196674;
             }
 
             .estoyiniciado > p{
@@ -51,6 +56,10 @@ main{
                 .iniciarsesion > form{
                     display:none;
                     }
+                
+                .estoyiniciado:hover{
+                    background-color: #33A6B2;
+                }
 
                 .estoyiniciado:hover > .iniciarsesion > form{
                     display: grid;
@@ -59,26 +68,31 @@ main{
                 }
 
             /* Segunda partde del primer div de opcion a registrarse */
-            .noestoyiniciado{
-                background-color: aqua;
+            .noestoyiniciado{ 
                 border: solid black;
                 height: 50%;
                 padding-top: 7rem;
+                text-decoration: none;
+                background-color: #196674;
             }
             
             .noestoyiniciado > p{
                 margin-top: 1rem;
             }
 
+            .noestoyiniciado:hover{
+                background-color: #33A6B2;
+            }
+
         /* formulario de registro, segundo div general de la izquierda */   
         #registrarse{
-            margin-left: 5rem;
+            border: solid black;
+            margin:1rem;
+            padding-left: 1rem;
+            padding-right: 3rem;
+            
         }
 
-        #registrarse > form > input{
-            margin-bottom: 0.5rem;
-            width: 20rem;
-        }
 
     /* Derecha ---parte de ubicacion y informacion sobre el lugar y redes para contacto */
     .ubicacion{
