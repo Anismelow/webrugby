@@ -15,7 +15,6 @@
 }
 /* main-------------------------------------------- */
 main{
-    background-color: #D0E64B;
     margin: 1rem;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
@@ -122,9 +121,18 @@ main{
         }
 
         /* redes sociales e iconos */
-        .redes{
+        .redes {
             border: solid black;
+            height: max-content;
+            display: grid;
+            grid-template-columns: 70% 30%;
         }
+            .logos{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+            }
+
             /* cada red social especifica */
             .gmail{
                 border: solid black;
