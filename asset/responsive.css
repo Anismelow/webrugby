@@ -48,43 +48,26 @@ margin: 5rem 0rem 4rem 0rem;
 
 
 .container{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .barra-navegacion{
    display: flex;
-
-}
-
-
-.imagen img{
-   width: 95%;
-}
-
-.temporada{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%
+    flex-direction: column;
     
+
 }
-.clasificatoria{
-    width: 100%;
+.logo img {
+
+    border-radius: 50%;
+    width: 80px;
+    height: auto;
+
 }
 
-.calendario{
-    width: 100%;
-}
 
-.temporada iframe{
-    height: 60rem;
-   width: 90%;
-}
 
-.btn-temporada{
-margin: 5rem 0rem 4rem 0rem;
-}
 
-.btn-temporada a{
-  
-}
 
 }
