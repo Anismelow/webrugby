@@ -130,7 +130,10 @@ main{
         /* tamaño del mapa google */
         .sticky > iframe{
             width: 35rem;
-            height: 26rem;
+            height: 25rem;
+        }
+        .sticky > h3{
+            margin-top: 1rem;
         }
 
         /* redes sociales e iconos */
