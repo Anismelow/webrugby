@@ -7,6 +7,53 @@ body{
 .container{
     justify-content: center;
 }
+.barra-navegacion{
+  margin: auto;
+}
+
+
+.imagen img{
+   width: 95%;
+}
+
+.temporada{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+    
+}
+.clasificatoria{
+    width: 100%;
+}
+
+.calendario{
+    width: 100%;
+}
+
+.temporada iframe{
+    height: 60rem;
+   width: 90%;
+}
+
+.btn-temporada{
+margin: 5rem 0rem 4rem 0rem;
+}
+
+.btn-temporada a{
+  
+}
+
+}
+@media only screen and (max-width:720px){
+
+
+.container{
+    justify-content: center;
+}
+.barra-navegacion{
+   display: flex;
+
+}
 
 
 .imagen img{

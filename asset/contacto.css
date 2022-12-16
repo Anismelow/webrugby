@@ -1,62 +1,174 @@
 
+/* linea divisoria pregunta de inicio
+.linea{
+    border: dotted black;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+} */
+/* formulario usuario y contraseña */
+
+/* input[type="checkbox"] {
+    width: 10rem;
+} */
+*{
+    text-decoration: none;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1rem;
+}
+/* main-------------------------------------------- */
 main{
     margin: 1rem;
-    border: solid black;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
-}
-
-/* Parte entera de la izquierda. contenido especifico de formularios inicio y registro */
-.formulario{
-    margin: 1rem;
-    border: solid black;
-    /* display: flex; */
-}
-
-/* parte de ubicacion y informacion sobre el lugar y redes para contacto */
-.ubicacion{
-    margin: 1rem;
-    display:grid;
-    right: 0;
-    margin-right: 3rem;
-    width: fit-content;
-    /* border: solid black; */
-    /* display: flex; */
-}
-
-/* tamaño del mapa google */
-.sticky > iframe{
-width: 40rem;
-height: 30rem;
-}
-
-/* zona derecha sticky */
-.sticky{
-    border: solid black;
-    height: min-content;
-    position: sticky;
-    /* position: -webkit-sticky; */
-    top: 0;
-}
-
-/* opciones de registrado o no */
-.preguntainicio{
-    padding-left: 8rem;
-    padding-right: 7rem;
-    border: solid black;
-    padding-top: 12rem;
-    padding-bottom:16rem ;
-    text-align: initial;
-}
-
-.estoyiniciado > p{
-    margin-bottom: 1rem;
-}
-
-/* formulario usuario y contraseña */
-.iniciarsesion > form{
-display: grid;
-}
-.iniciarsesion{
     
+}
+
+    /* Izquierda---. contenido especifico de formularios inicio y registro */
+    .formulario{
+        background-color:#FFA100;
+        margin: 1rem;
+        /* display: flex; */
+    }
+
+        /* Primer div.opciones de registrado o no */
+        .preguntainicio{
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top:0.5rem;
+            padding-bottom:0.5rem;
+            text-align: center;
+            height: 35rem;
+            background-color: #D8F2F0;
+        }
+        .preguntainicio  p{
+            font-size: 2rem;
+        }
+
+            /* "parte de arriba del primer div" */
+            .estoyiniciado{
+                height: 50%;
+                padding-top: 7rem;
+                background-color: #196674;
+                border-bottom:solid rgb(91, 91, 173) 0.5rem;
+            }
+
+            .estoyiniciado > p{
+                margin-bottom: 0.5rem
+            }
+
+                /* Formulario de inicio que aparece con hover */
+                .iniciarsesion > form{
+                    display:none;
+                    align-items: center;
+                    }
+                
+                .estoyiniciado:hover{
+                    background-color: #33A6B2;
+                    padding-top: 2.5rem;
+                }
+
+                .estoyiniciado:hover > .iniciarsesion > form{
+                    display: grid;
+                    padding-left: 4rem;
+                    padding-right: 4rem;
+                }
+
+            /* Segunda partde del primer div de opcion a registrarse */
+            .noestoyiniciado{ 
+                height: 50%;
+                padding-top: 6rem;
+                text-decoration: none;
+                background-color: #196674;
+                border-top: solid rgb(91, 91, 173) 0.5rem;
+            }
+            
+            .noestoyiniciado > p{
+                margin-top: 1rem;
+            }
+
+            .noestoyiniciado:hover{
+                background-color: #33A6B2;
+            }
+
+        /* formulario de registro, segundo div general de la izquierda */   
+        #registrarse{
+            background-color:#93A605;
+            margin:1rem;
+            padding: 1rem;
+            padding-left: 1rem;
+            padding-right: 3rem;    
+        }
+
+
+    /* Derecha ---parte de ubicacion y informacion sobre el lugar y redes para contacto */
+    .ubicacion{
+        margin: 1rem;
+        display:grid;
+        right: 0;
+        margin-right: 3rem;
+        width: fit-content;
+        /* border: solid black; */
+        /* display: flex; */
+    }
+
+        /* zona derecha sticky */
+        .sticky{
+            background-color: #E5EFFA;
+            height: min-content;
+            position: sticky;
+            /* position: -webkit-sticky; */
+            top: 0;
+        }
+
+        /* tamaño del mapa google */
+        .sticky > iframe{
+            width: 35rem;
+            height: 25rem;
+        }
+        .sticky > h3{
+            margin-top: 1rem;
+        }
+
+        /* redes sociales e iconos */
+        .ubicacion_y_logos{
+            height: max-content;
+            display: grid;
+            grid-template-columns: 80% 20%;
+        }
+
+            /* la direccion escrita del lugar */
+            .ubicaciontexto{
+
+            }
+
+            .ubicaciontexto > p{
+                margin-top: 1rem;
+            }
+            .ubicaciontexto > h4{
+                margin-top: 1rem;
+            }
+            .ubicaciontexto > h5{
+                margin-top: 1rem;
+            }
+
+            /* logos de la derecha en grid */
+            .logos{
+                display: grid;
+
+            }
+
+                /* cada red social especifica dentro de logos*/
+                .gmail{
+                }
+
+/* footer con copyright y logos */
+footer{
+    background-color: #015201;
 }

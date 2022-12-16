@@ -9,5 +9,48 @@ width: 90%;
     width: 90%;
 }
 .femenino img{
-    width: auto 90%;
+    width: 90%;
 }
+.jugadores{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: brown;
+   /* width: 100em;  */
+    width: 100%;
+    height:100em;
+    display: line;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    
+
+}
+
+.jugadores-img {
+    border:  10px solid grey;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    
+    
+    
+    
+    /* grid-template-columns: 9rem 9em 9rem 9rem; */
+    justify-content:center;
+    /* grid-flex-order:7rem; */
+    
+}
+
+.jugadores-img img {width:100%;}
+
+h1{
+    font-size: 8em;
+}
+h2{
+    font-size: 8em;
+}
+
+
+
+
