@@ -12,8 +12,19 @@
 } */
 *{
     text-decoration: none;
+    color: #77A03A;
 }
-
+[type="button"]{
+    border: solid honeydew;
+}
+[type="button"]:hover{
+    background-color: #ebf1e2;
+    font-size: 1.2rem;
+}
+input{
+    border:none;
+    background-color: #def1f5;
+}
 }
 h3{
     font-size: 2rem;
@@ -24,17 +35,20 @@ h4{
 h5{
     font-size: 1rem;
 }
+
 /* main-------------------------------------------- */
 main{
     margin: 1rem;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
+  
     
 }
 
     /* Izquierda---. contenido especifico de formularios inicio y registro */
     .formulario{
         margin: 1rem;
+        border-right: solid;
         /* display: flex; */
     }
 
@@ -46,7 +60,6 @@ main{
             padding-bottom:0.5rem;
             text-align: center;
             height: 35rem;
-            background-color: #D8F2F0;
         }
         .preguntainicio  p{
             font-size: 2rem;
@@ -56,7 +69,6 @@ main{
             .estoyiniciado{
                 height: 50%;
                 padding-top: 7rem;
-                background-color: #c7e1e6;
             }
 
             .estoyiniciado > p{
@@ -66,18 +78,25 @@ main{
                 /* Formulario de inicio que aparece con hover */
                 .iniciarsesion > form{
                     display:none;
+                    padding-left: 7rem;
+                    padding-right: 7rem;
                     align-items: center;
+                    border: none;
                     }
                 
                 .estoyiniciado:hover{
-                    background-color: #33a5b27e;
                     padding-top: 2.5rem;
                 }
 
                 .estoyiniciado:hover > .iniciarsesion > form{
                     display: grid;
-                    padding-left: 4rem;
-                    padding-right: 4rem;
+
+                    
+                }
+                [type="button"]{
+                    margin-top: 1rem !important;
+                    width: 5rem;
+                    height: 2.5rem;
                 }
 
             /* Segunda partde del primer div de opcion a registrarse */
@@ -85,7 +104,6 @@ main{
                 height: 50%;
                 padding-top: 6rem;
                 text-decoration: none;
-                background-color: #c7e1e6;
             }
             
             .noestoyiniciado > p{
@@ -93,33 +111,36 @@ main{
             }
 
             .noestoyiniciado:hover{
-                background-color: #33a5b27e;
             }
 
         /* formulario de registro, segundo div general de la izquierda */   
         #registrarse{
+            display:grid;
             margin:1rem;
             padding: 1rem;
             padding-left: 3rem;
-            padding-right: 3rem;    
+            padding-right: 3rem;  
+            border-left:dashed 1rem bisque;  
+        }
         }
 
         #registrarse > form > input{
             width: 20rem;
-            height: 2rem;
-            border: none;
-            background-color: #c8edf5;
+            height: 2.5rem;
+            margin-bottom: 1rem;
         }
         [type="checkbox"]{
             width: 1rem !important;
             height: 1rem !important;
+            margin-bottom: 0rem !important;
         }
         .boton_registro{
             width: 7rem !important;
             height: 2rem;
         }
-        #registrarse > form > label{
-            margin-bottom: 1rem;
+        #registrarse > h3{
+            margin-bottom:1.5rem;
+
         }
 
 
@@ -130,14 +151,12 @@ main{
         right: 0;
         margin-right: 3rem;
         width: fit-content;
-        color: #77A03A;
         /* border: solid black; */
         /* display: flex; */
     }
 
         /* zona derecha sticky */
         .sticky{
-            background-color: #E5EFFA;
             height: min-content;
             position: sticky;
             /* position: -webkit-sticky; */
