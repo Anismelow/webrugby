@@ -13,6 +13,8 @@
 *{
     text-decoration: none;
 }
+
+}
 h3{
     font-size: 2rem;
 }
@@ -187,4 +189,10 @@ main{
 /* footer con copyright y logos */
 footer{
     background-color: #015201;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+footer > p{
+    margin-top: 0.5rem;
 }
