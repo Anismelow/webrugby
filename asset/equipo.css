@@ -51,6 +51,14 @@ h2{
     font-size: 8em;
 }
 
+/* medium devices (tablets,768px and up)*/
+@media (max-width: 768px){
+
+}
 
 
+/*Small devices ( landscape phones,576px and up)*/
+@media (max-width:576px) {
+    
+}
 
