@@ -12,7 +12,7 @@
 } */
 *{
     text-decoration: none;
-    color: #77A03A;
+    color: gray;
 }
 [type="button"]{
     border: solid honeydew;
@@ -57,12 +57,13 @@ main{
 
         /* Primer div.opciones de registrado o no */
         .preguntainicio{
+            border: solid black;
             padding-left: 1rem;
             padding-right: 1rem;
             padding-top:0.5rem;
             padding-bottom:0.5rem;
             text-align: center;
-            height: 35rem;
+            height: 25rem;
         }
         .preguntainicio  p{
             font-size: 2rem;
@@ -70,8 +71,8 @@ main{
 
             /* "parte de arriba del primer div" */
             .estoyiniciado{
-                height: 50%;
-                padding-top: 7rem;
+                border: solid black;
+                height: 70%;
             }
 
             .estoyiniciado > p{
@@ -80,22 +81,13 @@ main{
 
                 /* Formulario de inicio que aparece con hover */
                 .iniciarsesion > form{
-                    display:none;
+                    display:grid;
                     padding-left: 7rem;
                     padding-right: 7rem;
                     align-items: center;
                     border: none;
-                    }
-                
-                .estoyiniciado:hover{
-                    padding-top: 2.5rem;
                 }
 
-                .estoyiniciado:hover > .iniciarsesion > form{
-                    display: grid;
-
-                    
-                }
                 [type="button"]{
                     margin-top: 1rem !important;
                     width: 5rem;
@@ -104,16 +96,41 @@ main{
 
             /* Segunda partde del primer div de opcion a registrarse */
             .noestoyiniciado{ 
-                height: 50%;
-                padding-top: 6rem;
-                text-decoration: none;
+                display: grid;
+                grid-template-columns: 10% 10% 50% 10% 10%;
+                justify-content:space-evenly;
+                border: solid black;
+                height: 20%;
             }
             
             .noestoyiniciado > p{
                 margin-top: 1rem;
             }
+            .noestoyiniciado > img{
+                position: relative;
+                width: 2rem;
+                margin-left: 2rem;
+                margin-top: 0.5rem;
+                animation-name: flechas;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+                /* animacion flechas */
+
+                @keyframes flechas{
+                    0% {top: 0px;}
+             
+                    50% {top: 1.3rem;}
+
+                    100% {top: 0px;}
+                }
 
             .noestoyiniciado:hover{
+                background-color: #def1f5;
+            }
+            .noestoyiniciado:hover > p{
+                font-size: 2.2em;
+                transition: 1s;
             }
 
         /* formulario de registro, segundo div general de la izquierda */   
@@ -131,6 +148,9 @@ main{
             width: 20rem;
             height: 2.5rem;
             margin-bottom: 1rem;
+        }
+        #registrarse > form > div{
+            margin-top: 1rem;
         }
         [type="checkbox"]{
             width: 1rem !important;
