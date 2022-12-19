@@ -1,0 +1,176 @@
+[33mcommit 16246d2ed346873fd7f938c674e6abdeea8a5ee5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: eeb06f2 9596a3b
+Author: Anismelow <117463292+Anismelow@users.noreply.github.com>
+Date:   Tue Dec 13 11:04:05 2022 +0100
+
+    Merge branch 'master' of https://github.com/Anismelow/proyecto-1-web-rugby
+
+[33mcommit eeb06f241d6a787273ae95f67c7213cc60cec268[m
+Merge: 89a36c3 f85b1b3
+Author: Anismelow <117463292+Anismelow@users.noreply.github.com>
+Date:   Tue Dec 13 11:03:58 2022 +0100
+
+    Merge branch 'master' of https://github.com/Anismelow/proyecto-1-web-rugby
+
+[33mcommit 9596a3b84cbc7187ef810222ddd98998fd760a56[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Tue Dec 13 11:03:04 2022 +0100
+
+    sticky mas cosas
+
+[33mcommit 89a36c35a86de8914b823a62037a04c388b44ef4[m
+Author: Anismelow <117463292+Anismelow@users.noreply.github.com>
+Date:   Tue Dec 13 11:02:55 2022 +0100
+
+    responsive
+
+[33mcommit f85b1b3113a5592cf7f98224deb0d52a7223720d[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Tue Dec 13 10:45:11 2022 +0100
+
+    sticky terminado
+
+[33mcommit 68561133298f569c17eef591ad18c9fc0c3993cd[m
+Merge: 6929994 493e3ca
+Author: trontzal <trontzal@gmail.com>
+Date:   Tue Dec 13 10:21:55 2022 +0100
+
+    cabecera e intento sticky
+
+[33mcommit 6929994ea4e2730ced7c5ed38c1ac98f9c37ae21[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Tue Dec 13 10:17:56 2022 +0100
+
+    cabecera añadida
+
+[33mcommit 493e3ca6ba1c282230e19a7aed6d0fce86089bb2[m
+Merge: 3851a72 eb91db9
+Author: ikatza1967 <ikatzacarbon1@gmail.com>
+Date:   Tue Dec 13 09:55:28 2022 +0100
+
+    13-12-22 fusion rama principal
+
+[33mcommit 3851a72248de6fd337715d575e8e8e6d67ddb6f9[m
+Author: ikatza1967 <ikatzacarbon1@gmail.com>
+Date:   Tue Dec 13 09:51:11 2022 +0100
+
+    cambios martes
+
+[33mcommit eb91db94cdb6ad2dcbf7eb38f87ac86afc92b780[m
+Author: Anismelow <117463292+Anismelow@users.noreply.github.com>
+Date:   Tue Dec 13 09:43:04 2022 +0100
+
+    cabecera
+
+[33mcommit ff6332875be0d4a9f475a7f08162f0fa7d418d5c[m
+Merge: 37699ea 9f3fe16
+Author: ikatza1967 <ikatzacarbon1@gmail.com>
+Date:   Mon Dec 12 12:50:46 2022 +0100
+
+    Merge branch 'master' of https://github.com/Anismelow/proyecto-1-web-rugby
+
+[33mcommit 37699ea572154139b59fed1a5de62f982052464f[m
+Merge: fbb63a0 68935ba
+Author: ikatza1967 <ikatzacarbon1@gmail.com>
+Date:   Mon Dec 12 12:47:20 2022 +0100
+
+    Fusion de comienzo gernika
+
+[33mcommit 9f3fe1691c1e16954aa5b9963895a19e68b8558b[m
+Merge: 984e0c7 68935ba
+Author: Lucas <ibarlucas@gmail.com>
+Date:   Mon Dec 12 12:44:22 2022 +0100
+
+    texto patrocinadores
+
+[33mcommit 984e0c70a6518d33341f227381ee9be996bf61bc[m
+Merge: ea55a03 de19ee4
+Author: Lucas <ibarlucas@gmail.com>
+Date:   Mon Dec 12 11:57:02 2022 +0100
+
+    texto patrocinadores
+
+[33mcommit ea55a03d8bf4d5116a71dadae4ee8443a7c3a6a4[m
+Author: Lucas <ibarlucas@gmail.com>
+Date:   Mon Dec 12 11:56:26 2022 +0100
+
+    patrocinadores texto
+
+[33mcommit 68935ba8df3e47d36fa54410057cd8af13110858[m
+Merge: 611edf0 de19ee4
+Author: Juan-Little <juanbenitodevalle@gmail.com>
+Date:   Mon Dec 12 11:56:05 2022 +0100
+
+    Merge branch 'master' of https://github.com/Anismelow/proyecto-1-web-rugby
+
+[33mcommit 611edf0144ffd4348cb2aeef36bc050f37ee7dd5[m
+Author: Juan-Little <juanbenitodevalle@gmail.com>
+Date:   Mon Dec 12 11:55:51 2022 +0100
+
+    primera version
+
+[33mcommit fbb63a03fc04c6d328762fade205990cfb58d641[m
+Author: ikatza1967 <ikatzacarbon1@gmail.com>
+Date:   Mon Dec 12 11:54:42 2022 +0100
+
+    comienzo gernika
+
+[33mcommit de19ee41de39e0b90a465341b9f9cebcceef85ff[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Mon Dec 12 11:54:26 2022 +0100
+
+    google map
+
+[33mcommit 743847a8bfbfbaa8685b10079dbe75eeea8f0b0f[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Mon Dec 12 11:04:38 2022 +0100
+
+    divs esqueleto vacios
+
+[33mcommit 6caf71b87b1dab57b5e55ebda7be97f7ecc798d9[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Mon Dec 12 10:03:53 2022 +0100
+
+    pregintainicio
+
+[33mcommit 16b4397e64b4d67d05d89feeb053d9ea7cd6eb85[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Mon Dec 12 09:31:20 2022 +0100
+
+    contato añadido
+
+[33mcommit ba5ab6cf850b4a724b0f1b074bf58609761766ea[m
+Author: ikatza1967 <ikatzacarbon1@gmail.com>
+Date:   Mon Dec 12 09:23:26 2022 +0100
+
+    equipo
+
+[33mcommit 8a7a40a70ba89ec33567dd9ea54e02986a3e9183[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Mon Dec 12 08:53:57 2022 +0100
+
+    formularioprimero
+
+[33mcommit e53ff96d410edc3a09c0ac04693a433abbec29bd[m
+Author: trontzal <trontzal@gmail.com>
+Date:   Fri Dec 9 10:42:24 2022 +0100
+
+    pruebasubir
+
+[33mcommit 5e00756bc0e487d41c91ab18ff0af36bc7c9a473[m
+Author: anyell <anyellmendozalopez@gmail.com>
+Date:   Wed Dec 7 09:17:03 2022 +0100
+
+    se agrego 5 webpage
+
+[33mcommit 55790190fbc9eda17f5034b3618b46afcb427174[m
+Author: anyell <anyellmendozalopez@gmail.com>
+Date:   Wed Dec 7 09:01:43 2022 +0100
+
+    .
+
+[33mcommit b0d22de3d53db1f9f9c4adacf588a0db3a722a62[m
+Author: Anismelow <117463292+Anismelow@users.noreply.github.com>
+Date:   Sat Dec 3 15:40:58 2022 +0100
+
+    proyecto-rugby
