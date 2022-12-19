@@ -13,7 +13,6 @@ br{
 
 .preguntainicio{
     height: 15rem;
-
 }
 .estoyiniciado{
     padding-top: 1rem;
@@ -50,14 +49,27 @@ br{
 
 }
 @media only screen and (max-width:720px){
+    body{
+        width: 40rem;
+    }
     .sticky{
         display: block;
-        width: 35rem;
+        width: 38rem;
     }
+    
 }
 
 @media only screen and (max-width:150px){
     body{
-     
+     width: 35rem;
+    }
+    #registrarse > form{
+        display: block;
+    }
+    .sticky > iframe{
+        width: 25rem;
+    }
+    .logos{
+        display: none;
     }
 }
