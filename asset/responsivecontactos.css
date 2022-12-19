@@ -1,0 +1,46 @@
+@media only screen and (max-width: 980px){
+
+main{
+    display: block;
+}
+br{
+    display: none;
+}
+
+
+.preguntainicio{
+    height: 15rem;
+
+}
+.estoyiniciado{
+    padding-top: 1rem;
+}
+.iniciarsesion > form{
+    display: grid;
+}
+.noestoyiniciado{
+    display: none;
+}
+
+.sticky{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50rem;
+}
+
+.sticky > iframe{
+    width: 100%;
+    height: 85%;
+}
+.ubicacion_y_logos{
+    width: 100%;
+}
+#registrarse > form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#registrarse > form > div{
+    margin:0.5rem;
+}
+
+}

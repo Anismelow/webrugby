@@ -12,9 +12,22 @@
 } */
 *{
     text-decoration: none;
+    color: #77A03A;
+}
+[type="button"]{
+    border: solid honeydew;
+}
+[type="button"]:hover{
+    background-color: #ebf1e2;
+    font-size: 1.2rem;
+}
+input{
+    border:none;
+    background-color: #def1f5;
+}
 }
 h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 h4{
     font-size: 1.2rem;
@@ -22,18 +35,20 @@ h4{
 h5{
     font-size: 1rem;
 }
+
 /* main-------------------------------------------- */
 main{
     margin: 1rem;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
+  
     
 }
 
     /* Izquierda---. contenido especifico de formularios inicio y registro */
     .formulario{
-        background-color:#FFA100;
         margin: 1rem;
+        border-right: solid;
         /* display: flex; */
     }
 
@@ -45,7 +60,6 @@ main{
             padding-bottom:0.5rem;
             text-align: center;
             height: 35rem;
-            background-color: #D8F2F0;
         }
         .preguntainicio  p{
             font-size: 2rem;
@@ -55,8 +69,6 @@ main{
             .estoyiniciado{
                 height: 50%;
                 padding-top: 7rem;
-                background-color: #196674;
-                border-bottom:solid rgb(91, 91, 173) 0.5rem;
             }
 
             .estoyiniciado > p{
@@ -66,18 +78,25 @@ main{
                 /* Formulario de inicio que aparece con hover */
                 .iniciarsesion > form{
                     display:none;
+                    padding-left: 7rem;
+                    padding-right: 7rem;
                     align-items: center;
+                    border: none;
                     }
                 
                 .estoyiniciado:hover{
-                    background-color: #33A6B2;
                     padding-top: 2.5rem;
                 }
 
                 .estoyiniciado:hover > .iniciarsesion > form{
                     display: grid;
-                    padding-left: 4rem;
-                    padding-right: 4rem;
+
+                    
+                }
+                [type="button"]{
+                    margin-top: 1rem !important;
+                    width: 5rem;
+                    height: 2.5rem;
                 }
 
             /* Segunda partde del primer div de opcion a registrarse */
@@ -85,8 +104,6 @@ main{
                 height: 50%;
                 padding-top: 6rem;
                 text-decoration: none;
-                background-color: #196674;
-                border-top: solid rgb(91, 91, 173) 0.5rem;
             }
             
             .noestoyiniciado > p{
@@ -94,16 +111,36 @@ main{
             }
 
             .noestoyiniciado:hover{
-                background-color: #33A6B2;
             }
 
         /* formulario de registro, segundo div general de la izquierda */   
         #registrarse{
-            background-color:#93A605;
+            display:grid;
             margin:1rem;
             padding: 1rem;
-            padding-left: 1rem;
-            padding-right: 3rem;    
+            padding-left: 3rem;
+            padding-right: 3rem;  
+            border-left:dashed 1rem bisque;  
+        }
+        }
+
+        #registrarse > form > input{
+            width: 20rem;
+            height: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        [type="checkbox"]{
+            width: 1rem !important;
+            height: 1rem !important;
+            margin-bottom: 0rem !important;
+        }
+        .boton_registro{
+            width: 7rem !important;
+            height: 2rem;
+        }
+        #registrarse > h3{
+            margin-bottom:1.5rem;
+
         }
 
 
@@ -120,7 +157,6 @@ main{
 
         /* zona derecha sticky */
         .sticky{
-            background-color: #E5EFFA;
             height: min-content;
             position: sticky;
             /* position: -webkit-sticky; */
@@ -130,7 +166,7 @@ main{
         /* tamaño del mapa google */
         .sticky > iframe{
             width: 35rem;
-            height: 25rem;
+            height: 28rem;
         }
         .sticky > h3{
             margin-top: 1rem;
@@ -140,22 +176,22 @@ main{
         .ubicacion_y_logos{
             height: max-content;
             display: grid;
-            grid-template-columns: 80% 20%;
+            grid-template-columns: 90% 10%;
         }
 
             /* la direccion escrita del lugar */
             .ubicaciontexto{
-
+                margin-left: 1.5rem;
             }
 
             .ubicaciontexto > p{
-                margin-top: 1rem;
+                margin-top: 1.5rem;
             }
             .ubicaciontexto > h4{
                 margin-top: 1rem;
             }
             .ubicaciontexto > h5{
-                margin-top: 1rem;
+                margin-top: 1.5rem;
             }
 
             /* logos de la derecha en grid */
@@ -166,9 +202,16 @@ main{
 
                 /* cada red social especifica dentro de logos*/
                 .gmail{
+                    
                 }
 
 /* footer con copyright y logos */
 footer{
     background-color: #015201;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+footer > p{
+    margin-top: 0.5rem;
 }
