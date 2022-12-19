@@ -17,6 +17,7 @@ br{
 }
 .estoyiniciado{
     padding-top: 1rem;
+    border: none;
 }
 .iniciarsesion > form{
     display: grid;
@@ -47,4 +48,16 @@ br{
     margin-right: 5rem;
 }
 
+}
+@media only screen and (max-width:720px){
+    .sticky{
+        display: block;
+        width: 35rem;
+    }
+}
+
+@media only screen and (max-width:150px){
+    body{
+     
+    }
 }

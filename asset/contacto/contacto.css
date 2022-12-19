@@ -8,6 +8,46 @@
 /* formulario usuario y contraseña */
 
 
+
+
+
+
+
+
+
+/* input[type="checkbox"] {
+    width: 10rem;
+} */
+*{
+    text-decoration: none;
+    color: gray;
+    
+}
+[type="button"]{
+    border: solid honeydew;
+}
+[type="button"]:hover{
+    background-color: #ebf1e2;
+    font-size: 1.2rem;
+}
+input{
+    border:none;
+    background-color: #def1f5;
+}
+
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1rem;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+}
+/*cabecer navvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 img{
     max-width: 100%;
 }
@@ -68,44 +108,6 @@ img{
     text-decoration: none;
 }
 
-
-
-
-
-
-/* input[type="checkbox"] {
-    width: 10rem;
-} */
-*{
-    text-decoration: none;
-    color: gray;
-    
-}
-[type="button"]{
-    border: solid honeydew;
-}
-[type="button"]:hover{
-    background-color: #ebf1e2;
-    font-size: 1.2rem;
-}
-input{
-    border:none;
-    background-color: #def1f5;
-}
-
-h3{
-    font-size: 2rem;
-}
-h4{
-    font-size: 1.2rem;
-}
-h5{
-    font-size: 1rem;
-}
-p{
-    font-family: 'Libre Baskerville', serif;
-}
-
 /* main-------------------------------------------- */
 main{
     margin: 1rem;
@@ -124,7 +126,7 @@ main{
 
         /* Primer div.opciones de registrado o no */
         .preguntainicio{
-            border: solid black;
+            background-color: #a5d69b;
             padding-left: 1rem;
             padding-right: 1rem;
             padding-top:0.5rem;
@@ -230,6 +232,7 @@ main{
         }
         #registrarse > h3{
             margin-bottom:1.5rem;
+            margin-top: 0rem !important;
 
         }
 
