@@ -59,15 +59,15 @@ br{
     
 }
 
-@media only screen and (max-width:150px){
+@media only screen and (max-width:500px){
     body{
-     width: 35rem;
+     width: 45rem;
     }
     #registrarse > form{
         display: block;
     }
     .sticky > iframe{
-        width: 25rem;
+        width: 40rem;
     }
     .logos{
         display: none;

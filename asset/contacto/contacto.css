@@ -33,6 +33,7 @@
 input{
     border:none;
     background-color: #def1f5;
+    height: 1.5rem;
 }
 
 h3{
@@ -209,9 +210,16 @@ main{
             padding: 1rem;
             padding-left: 3rem;
             padding-right: 3rem;  
-            border-left:dashed 1rem bisque;  
+            border-left:dashed 1rem #a5d69b;  
         }
-        
+        /* imagen de registro */
+        /* #registrarse > img{
+            position: absolute;
+            width: 10rem;
+            margin-left: 0%;
+            margin-top: 0%;
+        } */
+
 
         #registrarse > form > input{
             width: 20rem;
@@ -303,6 +311,7 @@ footer{
     background-color: #015201;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 0.5rem;
 }
 
 footer > p{
