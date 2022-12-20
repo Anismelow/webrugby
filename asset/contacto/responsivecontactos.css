@@ -28,7 +28,7 @@ br{
 .sticky{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50rem;
+    width: 100%;
 }
 
 .sticky > iframe{
@@ -66,18 +66,40 @@ br{
     
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:450px){
     body{
-     
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     #registrarse{
+        width: 100%;
         border:none;
+        margin:0;
+        padding: 0;
+
     }
     #registrarse > form{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
         display: block;
     }
+    .preguntainicio{
+        width: 90%;
+    }
+    .iniciarsesion > form{
+        padding: 0;
+        width: 90%;
+    }
     .sticky > iframe{
-        width: 40rem;
+        width: 90%;
     }
     .logos{
         display: none;
@@ -85,5 +107,15 @@ br{
     form{
         padding: 0;
         margin: 0;
+    }
+    .ubicacion{
+        width: 100%;
+    }
+    .sticky{
+        width: 90%;
+        margin: 1rem;
+    }
+    .formulario{
+        border: none;
     }
 }
