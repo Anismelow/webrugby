@@ -1,15 +1,19 @@
-
-/* body{
+*{
     margin: 0;
-    font-family: 'Libre Baskerville', serif;
+    padding: 0; 
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
+.main-nav{
+    position:fixed;
+    z-index: 100;
+    width: 100%;
+    top: -0.5rem;
 }
 
 .toggle-menu{
-    position: absolute;
+    position: absolute;  
     top: 0.5rem;
     right: 1.5rem;
     cursor: pointer;
@@ -17,13 +21,24 @@ img{
     z-index: 1;
 
 }
-
 @media screen and (min-width:768px) {
     .toggle-menu{
         display: none;
     }
 }
 
+@media screen and (max-width:770px) {
+    .toggle-menu img{
+    filter: invert(1) ;
+ }
+   
+ .main-nav{
+    position:fixed;
+    z-index: 100;
+    width: 100%;
+    top: -0.5rem;
+}
+}
 
 
 .main-menu{
@@ -50,7 +65,7 @@ img{
     flex-direction:row;
     transform: translateY(0);
     
-
+}
 }
 
 .main-menu_item{
@@ -80,7 +95,7 @@ img{
     display: flex;
    
     justify-content: center;
-    margin-bottom:100rem ;
+    margin-bottom:10rem ;
     
 }
 h2{
@@ -93,137 +108,151 @@ margin: 2rem 0rem 4rem 0rem;
     width: 100%;
 }
 
+
+
 .btn-temporada{
 
     margin-top: 3rem;
     border-radius: 10px;
     padding:1.5em 2em;
+    margin-left: 40%;
 }
 
 .btn-temporada a{
-    font-family: 'Libre Baskerville', serif;
     text-decoration: none;
-    color: rgb(73, 73, 73);
-} */
+    font-family: 'Inter', sans-serif;
 
-
-*{font-family: 'Inter', sans-serif;}
-
-
-body{
-
-    margin: 0%;
-    background-color: white;
-    padding: 0 20px 20px 20px;
-   
 }
 
 
-.imagen-medio > img{
-
-    border: 1px solid  black;
-    width: 100%;
-    height: auto;
-}
-
-.portada > img{
-
-    border: 1px solid black;
-    width: 100%;
-    height: auto;
-}
-
-/* img{
-height: auto;
-display: block;
-
-} */
-
-
-
-.video-gernika > iframe {
-
-
-width: 100%;
-height: 50rem;
-}
-
-
-
-
-
-
-.formulario {
- 
-    align-items: center;
-}
-
-
-.sponsors{
-
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content:center;
-    margin-top: 5rem;
-}
-
-/* footer con copyright y logos */
 footer{
     background-color: #015201;
     display: flex;
     justify-content: space-evenly;
-
+    padding-top: 1rem;
 }
+
+.container{
+    height: auto;
+    width: 100%;
+}
+
+.patrocinios{
+    justify-content: center;
+}
+.patrocinios img{
+    height: auto;
+    width: 100%;
+}
+
+.porque-patrocinar{
+   margin: auto;
+    width: 90%;
+}
+
+.porque-patrocinar h2{
+    font-size: auto;
+}
+.lista{
+    font-size: 1.4rem;
+    margin-left: 4rem;
+}
+.parrafo{
+    font-size: 1.5rem;
+   margin: 2rem 0rem 2rem 0rem;
+}
+
+.media{
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+.media iframe{
+    height: 25rem;
+    width: 50%;
+    margin-bottom: 3rem;
+}
+
+.media img{
+    width: 70%;
+    margin-bottom: 3rem;
+}
+
+ .parrafo3{
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+.lista2{
+    
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 50%;
+    font-size: 1.4rem;
+    text-align: start;
+    
+}
+.contacto{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.contacto h4{
+    font-size: 1.5rem;
+    margin: 3rem 0rem 3rem 0rem ;
+}
+
+.contacto input{
+    height: 2rem;
+    width: 20rem;
+}
+
+@media screen and (max-width:1688px) {
+    .contacto  input{
+       margin: auto;
+       margin-bottom: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.patrocinadores{
+    height: auto;
+    width: 100%;
+}
+
+.sponsors{
+   flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sponsors img{
+    height: 10%;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer > p{
     margin-top: 0.5rem;
 }
-
- /* redes sociales e iconos */
- .ubicacion_y_logos{
-    height: max-content;
-    display: grid;
-    grid-template-columns: 90% 10%;
+.iconosfooter > a{
+    margin-right: 4rem;
 }
 
-    /* la direccion escrita del lugar */
-    .ubicaciontexto{
-        margin-left: 1.5rem;
-    }
-
-    .ubicaciontexto > p{
-        margin-top: 1.5rem;
-    }
-    .ubicaciontexto > h4{
-        margin-top: 1rem;
-    }
-    .ubicaciontexto > h5{
-        margin-top: 1.5rem;
-    }
-
-    /* logos de la derecha en grid */
-    .logos{
-        display: grid;
-        
-
-    }
-
-        /* cada red social especifica dentro de logos*/
-        .gmail{
-            
-        }
-
-/* footer con copyright y logos */
-footer{
-background-color: #015201;
-display: flex;
-/* justify-content: space-evenly; */
-
-}
-footer > p{
-/* margin-top: 0.5rem; */
-}
-
-
-
-
- 
