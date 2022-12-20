@@ -38,6 +38,9 @@ br{
 .ubicacion_y_logos{
     width: 100%;
 }
+#registrarse{
+    background-image: none;
+}
 #registrarse > form{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -56,12 +59,19 @@ br{
         display: block;
         width: 38rem;
     }
+
+    .iconosfooter > a{
+        display: none;
+    }
     
 }
 
 @media only screen and (max-width:500px){
     body{
-     width: 45rem;
+     
+    }
+    #registrarse{
+        border:none;
     }
     #registrarse > form{
         display: block;
@@ -71,5 +81,9 @@ br{
     }
     .logos{
         display: none;
+    }
+    form{
+        padding: 0;
+        margin: 0;
     }
 }
