@@ -5,22 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto rugby gernika</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/normalize.css">
-    <link rel="stylesheet" href="asset/cabecera.css">
-    <link rel="stylesheet" href="asset/contacto.css">
-    <link rel="stylesheet" href="responsivecontactos.css">
+    <link rel="stylesheet" href="asset/contacto/contacto.css">
+    <link rel="stylesheet" href="asset/contacto/responsivecontactos.css">
 </head>
 <body>
-    <header class="container">
-        <div class="logo"><img src="asset\img\logo-gernikarugby-125x125-1.jpg" alt="logo equipo de rugby de gernika"></div>
-
-        <nav class="barra-navegacion">
-            <a href="cabecera.html" class="btn">home</a>
-            <a href="historia.html" class="btn">historia</a>
-            <a href="equipo.html" class="btn">equipos</a>
-            <a href="patrocinadores1.html" class="btn">patrocinadores</a>
-            <a href="" class="btn">contacto</a>
-        </nav>
+    <nav class="main-nav">
+        <div id="toggle-menu" class="toggle-menu"><img src="/asset/img/R.png" alt=""></div>
+      <ul id="main-menu" class="main-menu">
+        <li class="main-menu_item">
+          <a href="cabecera.html" class="main-menu_link">home</a>
+        </li>
+        <li class="main-menu_item">
+            <a href="/historia.html" class="main-menu_link">historia</a>
+          </li>
+          <li class="main-menu_item">
+            <a href="/equipo.html" class="main-menu_link">equipo</a>
+          </li>
+          <li class="main-menu_item">
+            <a href="patrocinadores1.html" class="main-menu_link">patrocinadores</a>
+          </li>
+          <li class="main-menu_item">
+            <a href="contacto.html" class="main-menu_link">contacto</a>
+          </li>
+      </ul>
+    </nav>
   </header>
     <main>
         <div class="formulario">
@@ -37,11 +48,10 @@
                             <input type="button" value="Entrar" class="boton_inicio">
                         </form>
                     </div>
+                    
                 </div>  
-                            <!-- linea que divide el primer div en dos -->
-                            <!-- <div class="linea"></div>  -->
                 <a href="contacto.html#registrarse"><div class="noestoyiniciado">
-                    <p>No soy socio</p>
+                    <img src="asset/img/img_contactos/pngegg.png"><img src="asset/img/img_contactos/pngegg.png"> <p>No soy socio</p><img src="asset/img/img_contactos/pngegg.png"><img src="asset/img/img_contactos/pngegg.png">
                 </div></a>
             </div>
 
@@ -60,14 +70,14 @@
                     <input type="date" id="fecha_nacimiento_registro" name="fecha_nacimiento_registro"><br></div>
                     <div><label for="email_registro">Email:</label><br>
                     <input type="email" id="email_registro" name="email_registro"><br></div>
-                    <div><label for="telefono_registro">Numero de telefono</label><br>
+                    <div><label for="telefono_registro">Numero de telefono:</label><br>
                     <input type="tel" id="telefono_registro" name="telefono_registro"><br></div>
                     <div><label for="usuario_registro">Nombre de usuario nuevo:</label><br>
                     <input type="text" id="usuario_registro" name="usuario_registro"><br></div>
-                    <div><label for="contraseña_registro">Contraseña Nueva</label><br>
+                    <div><label for="contraseña_registro">Contraseña Nueva:</label><br>
                     <input type="password" id="contraseña_registro" name="contraseña_registro"><br></div>
                     <!-- faltaria js -->
-                    <div><label for="confirmacion_contraseña_registro">Confirmacion de contraseña</label><br>
+                    <div><label for="confirmacion_contraseña_registro">Confirmacion de contraseña:</label><br>
                     <input type="password" id="onfirmacion_contraseña_registro" name="onfirmacion_contraseña_registro"><br></div>
                     <div><input type="checkbox" id="noticias_checkbox" name="noticias_checkbox">
                     <label for="noticias_checkbox">Al marcar esta casilla, acepto recibir actualizaciones, información y ofertas de Gernika rugby y sus afiliados por correo electrónico y teléfono a la información de contacto indicada anteriormente. Entiendo que puedo retirar mi consentimiento en cualquier momento</label><br></div>
@@ -113,5 +123,6 @@
             <a href="#" alt="instagram"><img src="asset/img/img_contactos/social_instagram_3.png" alt="instagram"></a>
         </div>
     </footer>
+    <script src="/app.js"></script> 
 </body>
 </html>

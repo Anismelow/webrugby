@@ -1,5 +1,8 @@
 @media only screen and (max-width: 980px){
-
+.barra-navegacion{
+    margin: auto;
+    }
+    
 main{
     display: block;
 }
@@ -10,10 +13,10 @@ br{
 
 .preguntainicio{
     height: 15rem;
-
 }
 .estoyiniciado{
     padding-top: 1rem;
+    border: none;
 }
 .iniciarsesion > form{
     display: grid;
@@ -41,6 +44,32 @@ br{
 }
 #registrarse > form > div{
     margin:0.5rem;
+    margin-right: 5rem;
 }
 
+}
+@media only screen and (max-width:720px){
+    body{
+        width: 40rem;
+    }
+    .sticky{
+        display: block;
+        width: 38rem;
+    }
+    
+}
+
+@media only screen and (max-width:150px){
+    body{
+     width: 35rem;
+    }
+    #registrarse > form{
+        display: block;
+    }
+    .sticky > iframe{
+        width: 25rem;
+    }
+    .logos{
+        display: none;
+    }
 }
