@@ -303,8 +303,11 @@ footer{
     background-color: #015201;
     display: flex;
     justify-content: space-evenly;
-
 }
+
 footer > p{
     margin-top: 0.5rem;
+}
+.iconosfooter > a{
+    margin-right: 4rem;
 }
