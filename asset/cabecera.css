@@ -7,11 +7,7 @@ img{
     max-width: 100%;
 }
 
-.main-nav{
-    position:fixed;
-    z-index: 100;
-    width: 100%;
-}
+
 
 .toggle-menu{
     position: absolute;  
@@ -31,8 +27,14 @@ img{
 @media screen and (max-width:770px) {
     .toggle-menu img{
     filter: invert(1) ;
-    }
+ }
    
+ .main-nav{
+    position:fixed;
+    z-index: 100;
+    width: 100%;
+    top: -0.5rem;
+}
 }
 
 

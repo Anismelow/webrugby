@@ -107,3 +107,10 @@ footer > p{
 /* p {
     margin-top: 3rem 0rem 20rem 0rem;
 } */
+
+@media screen and (max-width:770px) {
+    .toggle-menu img{
+    filter: invert(0) ;
+    }
+}
+    

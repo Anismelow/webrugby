@@ -84,3 +84,9 @@ footer > p{
 .iconosfooter > a{
     margin-right: 4rem;
 }
+
+@media screen and (max-width:770px) {
+    .toggle-menu img{
+    filter: invert(0) ;
+    }
+}
