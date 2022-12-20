@@ -27,7 +27,7 @@
 
 .barra-navegacion{
     height: auto;
-   width: 80%;
+    width: 80%;
     box-sizing: border-box;
     display: flex;
     margin-top: 60px;
@@ -58,10 +58,10 @@
     width: auto;
     display:inline-flex;
 }
-.h2{
+/* .h2{
     margin-top: 5rem;
     font-size: 3rem;
-}
+} */
 .temporada{
     display: flex;
 }

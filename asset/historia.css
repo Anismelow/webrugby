@@ -8,9 +8,6 @@
 p{
     color: grey;
     line-height: 1.5rem;
-    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> ;
     
 }
 .micontainer {
@@ -85,6 +82,6 @@ align-items: center;
     padding-right: 5rem;
     /* justify-content: left; */
 }
-h2{
+.nacimiento h2{
     margin: 2rem 0rem;
 }
