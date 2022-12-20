@@ -23,6 +23,7 @@
     color: gray;
     
 }
+
 [type="button"]{
     border: solid honeydew;
 }
@@ -33,6 +34,7 @@
 input{
     border:none;
     background-color: #def1f5;
+    height: 1.5rem;
 }
 
 h3{
@@ -209,9 +211,12 @@ main{
             padding: 1rem;
             padding-left: 3rem;
             padding-right: 3rem;  
-            border-left:dashed 1rem bisque;  
+            border-left:dashed 1rem #a5d69b;  
+            background-image:url(https://st.depositphotos.com/2400497/4432/v/950/depositphotos_44322359-stock-illustration-cartoon-rugby-player.jpg);   
+            background-position: right;
+            background-size: 10rem;
+            background-repeat: no-repeat;
         }
-        
 
         #registrarse > form > input{
             width: 20rem;
@@ -303,8 +308,12 @@ footer{
     background-color: #015201;
     display: flex;
     justify-content: space-evenly;
-
+    padding-top: 0.5rem;
 }
+
 footer > p{
     margin-top: 0.5rem;
+}
+.iconosfooter > a{
+    margin-right: 4rem;
 }

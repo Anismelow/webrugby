@@ -50,7 +50,7 @@ img{
     flex-direction:row;
     transform: translateY(0);
     
-}
+
 }
 
 .main-menu_item{
@@ -107,15 +107,12 @@ margin: 2rem 0rem 4rem 0rem;
 } */
 
 
-
-
-
 body{
 
     margin: 0%;
     background-color: white;
     padding: 0 20px 20px 20px;
-   ;
+   
 }
 
 
