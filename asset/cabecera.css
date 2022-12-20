@@ -6,8 +6,15 @@ body{
 img{
     max-width: 100%;
 }
+
+.main-nav{
+    position:fixed;
+    z-index: 100;
+    width: 100%;
+}
+
 .toggle-menu{
-    position: absolute;  "
+    position: absolute;  
     top: 0.5rem;
     right: 1.5rem;
     cursor: pointer;
@@ -21,6 +28,12 @@ img{
     }
 }
 
+@media screen and (max-width:770px) {
+    .toggle-menu img{
+    filter: invert(1) ;
+    
+    }
+}
 
 
 .main-menu{
