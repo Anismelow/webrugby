@@ -1,136 +1,13 @@
-@media only screen and (max-width:980px){
-body{
-    width: 100%;
-   
-}
-
-.container{
-    justify-content: center;
-}
-.barra-navegacion{
-  margin: auto;
-}
-
-
-.imagen img{
-   width: 95%;
-}
-
-.temporada{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%
-    
-}
-.clasificatoria{
-    width: 100%;
-}
-
-.calendario{
-    width: 100%;
-}
-
-.temporada iframe{
-    height: 60rem;
-   width: 90%;
-}
-
-.btn-temporada{
-margin: 5rem 0rem 4rem 0rem;
-}
-
-.btn-temporada a{
-  
-}
-
-}
-@media only screen and (max-width:720px){
-
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.barra-navegacion{
-   display: flex;
-    flex-direction: column;
-    
-
-}
-.logo img {
-
-    border-radius: 50%;
-    width: 80px;
-    height: auto;
-
-}
-
-
-
-
-
-}
-
-
-}
-@media only screen and (max-width:720px){
-
-
-.micontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.barra-navegacion{
-   display: flex;
-    flex-direction: column;
-    margin-right: auto; 
-    
-
-}
-.logo img {
-
-    border-radius: 50%;
-    width: 80px;
-    max-height: 1rem;
-    max-width: 1rem;
-    min-height: 1rem;
-    min-width: 1rem;
-
-}
-
- @media only screen and (max-width:150px){
-    .objetivos {
-        display: flex;
-        border:  1px solid black;
-        flex-direction: column;
-        padding: 15rem 15rem 15rem 15rem;
-        
-        
-    } 
-    .objetivos img{
-        min-block-size: 50%;
-    }
-    .objetivos p{
-        max-height: auto;
-        margin-top: 10%;
-    }
-
-
- }
-
-
-
 /* *{
     border: 1rem;
     color: solid 6px black;
 } */
 *{
-    
+    font-family: 'Libre Baskerville', serif;
 }
 p{
-    
+    color: grey;
+    line-height: 1.5rem;
     font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> ;
@@ -182,14 +59,6 @@ align-items: center;
 }
  
 .objetivos2{
-
-
-    /* *{
-        border: 1rem;
-        color: solid 6px black;
-    } */
-    *{
-        
 display: flex;
 flex-direction: row-reverse;
 align-items: center;
@@ -229,13 +98,11 @@ footer{
     background-color: #015201;
     display: flex;
     justify-content: space-evenly;
+   
+ 
 }
-
 footer > p{
     margin-top: 0.5rem;
-}
-.iconosfooter > a{
-    margin-right: 4rem;
 }
 /* p {
     margin-top: 3rem 0rem 20rem 0rem;
