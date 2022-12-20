@@ -50,7 +50,7 @@ img{
     flex-direction:row;
     transform: translateY(0);
     
-}
+
 }
 
 .main-menu_item{
@@ -107,7 +107,7 @@ margin: 2rem 0rem 4rem 0rem;
 } */
 
 
-
+*{font-family: 'Inter', sans-serif;}
 
 
 body{
@@ -115,30 +115,29 @@ body{
     margin: 0%;
     background-color: white;
     padding: 0 20px 20px 20px;
-    border: 5px solid darkred;
+   
 }
 
 
 .imagen-medio > img{
 
-    border: 3px solid darkred;
+    border: 1px solid  black;
     width: 100%;
     height: auto;
 }
 
 .portada > img{
 
-    border: 3px solid darkred;
+    border: 1px solid black;
     width: 100%;
     height: auto;
 }
 
-img{
-width: 100%;
+/* img{
 height: auto;
 display: block;
 
-}
+} */
 
 
 
@@ -151,16 +150,80 @@ height: 50rem;
 
 
 
+
+
+
 .formulario {
  
     align-items: center;
 }
 
 
-.footer-sponsors{
+.sponsors{
 
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content:center;
     margin-top: 5rem;
 }
+
+/* footer con copyright y logos */
+footer{
+    background-color: #015201;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+footer > p{
+    margin-top: 0.5rem;
+}
+
+ /* redes sociales e iconos */
+ .ubicacion_y_logos{
+    height: max-content;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+    /* la direccion escrita del lugar */
+    .ubicaciontexto{
+        margin-left: 1.5rem;
+    }
+
+    .ubicaciontexto > p{
+        margin-top: 1.5rem;
+    }
+    .ubicaciontexto > h4{
+        margin-top: 1rem;
+    }
+    .ubicaciontexto > h5{
+        margin-top: 1.5rem;
+    }
+
+    /* logos de la derecha en grid */
+    .logos{
+        display: grid;
+        
+
+    }
+
+        /* cada red social especifica dentro de logos*/
+        .gmail{
+            
+        }
+
+/* footer con copyright y logos */
+footer{
+background-color: #015201;
+display: flex;
+/* justify-content: space-evenly; */
+
+}
+footer > p{
+/* margin-top: 0.5rem; */
+}
+
+
+
+
+ 
