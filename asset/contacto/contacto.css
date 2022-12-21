@@ -27,6 +27,15 @@
 
 [type="button"]{
     border: solid honeydew;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 6px #999;
+}
+
+[type="button"]:active  {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(3px);
 }
 [type="button"]:hover{
     background-color: #ebf1e2;
@@ -36,6 +45,7 @@ input{
     border:none;
     background-color: #def1f5;
     height: 1.5rem;
+    border-radius: 10px;
 }
 
 h3{
@@ -50,66 +60,7 @@ h5{
 p{
     font-family: 'Libre Baskerville', serif;
 }
-/*cabecer navvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
-img{
-    max-width: 100%;
-}
 
-.toggle-menu{
-    position: absolute;
-    top: 0.5rem;
-    right: 1.5rem;
-    cursor: pointer;
-   width: 40px;
-    z-index: 1;
-
-}
-
-@media screen and (min-width:768px) {
-    .toggle-menu{
-        display: none;
-    }
-}
-
-
-
-.main-menu{
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(7, 82, 7);
-    transition: transform 0.3s;
-    transform: translateY(-100%);
-
-}
-
-.main-menu--show{
-    transform: translateY(0);
-}
-
-@media screen and (min-width:768px) {
-    .main-menu{
-    flex-direction:row;
-    transform: translateY(0);
-    
-}
-}
-
-.main-menu_item{
-    padding: 1em;
-
-}
-
-.main-menu_link{
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-}
 
 /* main-------------------------------------------- */
 main{
@@ -162,7 +113,7 @@ main{
 
                 [type="button"]{
                     margin-top: 1rem !important;
-                    width: 5rem;
+                    width: 7rem;
                     height: 2.5rem;
                 }
 
