@@ -24,7 +24,9 @@ br{
 .noestoyiniciado{
     display: none;
 }
-
+.ubicacion{
+    width: 90%;
+}
 .sticky{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -32,7 +34,7 @@ br{
 }
 
 .sticky > iframe{
-    width: 100%;
+    width: 95%;
     height: 85%;
 }
 .ubicacion_y_logos{
@@ -59,11 +61,6 @@ br{
         display: block;
         width: 38rem;
     }
-
-    .iconosfooter > a{
-        display: none;
-    }
-    
 }
 
 @media only screen and (max-width:450px){
@@ -96,7 +93,7 @@ br{
     }
     .iniciarsesion > form{
         padding: 0;
-        width: 90%;
+        width: 100%;
     }
     .sticky > iframe{
         width: 90%;
