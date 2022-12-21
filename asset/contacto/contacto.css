@@ -192,6 +192,12 @@ main{
             margin-top: 0rem !important;
 
         }
+        #hazte_socio{
+            display: none;
+        }
+        #visible{
+            display: none;
+        }
 
 
     /* Derecha ---parte de ubicacion y informacion sobre el lugar y redes para contacto */
