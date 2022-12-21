@@ -304,8 +304,4 @@ main{
                     
                 }
 
-                @media only screen and (max-width:720px)}{
-                    .iconosfooter > a{
-                        display: none;
-                    }
-                }
+                
