@@ -115,7 +115,7 @@ br{
     .formulario{
         border: none;
     }
-    /* hacer expandible */
+    /* ---------------------desplegable--------------------- */
     #registrarse > h3{
         display: none;
     }
@@ -126,6 +126,7 @@ br{
         background-color: #a5d69b;
         text-align: center;
         width: 100%;
+        border: solid 3px rosybrown;
     }
     .oculto{
         display: none !important;
