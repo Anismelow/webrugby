@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="asset/footer.css">
     <link rel="stylesheet" href="asset/contacto/contacto.css">
     <link rel="stylesheet" href="asset/contacto/responsivecontactos.css">
+    <script>
+        function comprobarClave(){
+            clave1 = document.registro.clave1.value
+            clave2 = document.registro.clave2.value
+        
+            if (clave1 == clave2)
+               return
+            else
+               alert("Las contraseñas no coinciden")
+        }
+        </script>
 </head>
 <body>
     <nav class="main-nav">
@@ -62,7 +73,7 @@
 
             <div id="registrarse">
                 <h3>Hazte socio</h3>
-                <form>
+                <form action="" name="registro">
                     <div><label for="nombre_registro">Tu Nombre:</label><br>
                     <input type="text" id="nombre_registro" name="nombre_registro"><br></div>
                     <div><label for="apellidos_registro">Apellidos:</label><br>
@@ -76,13 +87,12 @@
                     <div><label for="usuario_registro">Nombre de usuario nuevo:</label><br>
                     <input type="text" id="usuario_registro" name="usuario_registro"><br></div>
                     <div><label for="contraseña_registro">Contraseña Nueva:</label><br>
-                    <input type="password" id="contraseña_registro" name="contraseña_registro"><br></div>
-                    <!-- faltaria js -->
+                    <input type="password" name="clave1"><br></div>
                     <div><label for="confirmacion_contraseña_registro">Confirmacion de contraseña:</label><br>
-                    <input type="password" id="onfirmacion_contraseña_registro" name="onfirmacion_contraseña_registro"><br></div>
+                    <input type="password" name="clave2"><br></div>
                     <div><input type="checkbox" id="noticias_checkbox" name="noticias_checkbox">
                     <label for="noticias_checkbox">Al marcar esta casilla, acepto recibir actualizaciones, información y ofertas de Gernika rugby y sus afiliados por correo electrónico y teléfono a la información de contacto indicada anteriormente. Entiendo que puedo retirar mi consentimiento en cualquier momento</label><br></div>
-                    <input type="button" value="Registrarse" class="boton_registro">
+                    <input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
                 </form>
                 <!-- <img src="asset/img/img_contactos/depositphotos_44322359-stock-illustration-cartoon-rugby-player.jpg"> -->
             </div>
