@@ -265,7 +265,7 @@ main{
         /* tamaño del mapa google */
         .sticky > iframe{
             width: 35rem;
-            height: 28rem;
+            height: 27rem;
         }
         .sticky > h3{
             margin-top: 1rem;
@@ -304,17 +304,8 @@ main{
                     
                 }
 
-/* footer con copyright y logos */
-footer{
-    background-color: #015201;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 0.5rem;
-}
-
-footer > p{
-    margin-top: 0.5rem;
-}
-.iconosfooter > a{
-    margin-right: 4rem;
-}
+                @media only screen and (max-width:720px)}{
+                    .iconosfooter > a{
+                        display: none;
+                    }
+                }
