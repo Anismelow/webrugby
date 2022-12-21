@@ -5,13 +5,15 @@
 *{
     font-family: 'Libre Baskerville', serif;
 }
-p{
+{
     color: grey;
     line-height: 1.5rem;
-    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> ;
-   
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
 }
 .micontainer {
     display: flex;
