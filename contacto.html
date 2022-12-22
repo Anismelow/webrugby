@@ -5,18 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto rugby gernika</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700;800&family=Inter:wght@300&family=Unbounded&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/normalize.css">
+    <link rel="stylesheet" href="asset/footer.css">
     <link rel="stylesheet" href="asset/contacto/contacto.css">
     <link rel="stylesheet" href="asset/contacto/responsivecontactos.css">
+    <script>
+        function comprobarClave(){
+            clave1 = document.registro.clave1.value
+            clave2 = document.registro.clave2.value
+        
+            if (clave1 == clave2)
+               return
+            else
+               alert("Las contraseñas no coinciden")
+        }
+        </script>
 </head>
 <body>
     <nav class="main-nav">
         <div id="toggle-menu" class="toggle-menu"><img src="/asset/img/R.png" alt=""></div>
       <ul id="main-menu" class="main-menu">
         <li class="main-menu_item">
-          <a href="cabecera.html" class="main-menu_link">home</a>
+          <a href="asset/cabecera.html" class="main-menu_link">home</a>
         </li>
         <li class="main-menu_item">
             <a href="/historia.html" class="main-menu_link">historia</a>
@@ -60,8 +72,10 @@
             
 
             <div id="registrarse">
-                <h3>Hazte socio</h3>
-                <form>
+                <h3>Hazte Socio</h3>
+                <input type="checkbox" id="visible" />
+                <label for="visible" id="hazte_socio">Hazte socio aqui</label>
+                <form action="" name="registro" class="oculto">
                     <div><label for="nombre_registro">Tu Nombre:</label><br>
                     <input type="text" id="nombre_registro" name="nombre_registro"><br></div>
                     <div><label for="apellidos_registro">Apellidos:</label><br>
@@ -75,14 +89,14 @@
                     <div><label for="usuario_registro">Nombre de usuario nuevo:</label><br>
                     <input type="text" id="usuario_registro" name="usuario_registro"><br></div>
                     <div><label for="contraseña_registro">Contraseña Nueva:</label><br>
-                    <input type="password" id="contraseña_registro" name="contraseña_registro"><br></div>
-                    <!-- faltaria js -->
+                    <input type="password" name="clave1"><br></div>
                     <div><label for="confirmacion_contraseña_registro">Confirmacion de contraseña:</label><br>
-                    <input type="password" id="onfirmacion_contraseña_registro" name="onfirmacion_contraseña_registro"><br></div>
+                    <input type="password" name="clave2"><br></div>
                     <div><input type="checkbox" id="noticias_checkbox" name="noticias_checkbox">
                     <label for="noticias_checkbox">Al marcar esta casilla, acepto recibir actualizaciones, información y ofertas de Gernika rugby y sus afiliados por correo electrónico y teléfono a la información de contacto indicada anteriormente. Entiendo que puedo retirar mi consentimiento en cualquier momento</label><br></div>
-                    <input type="button" value="Registrarse" class="boton_registro">
+                    <input type="button" value="Registrarse" onClick="comprobarClave()">
                 </form>
+                
                 <!-- <img src="asset/img/img_contactos/depositphotos_44322359-stock-illustration-cartoon-rugby-player.jpg"> -->
             </div>
         </div>
@@ -106,7 +120,7 @@
                                  </p>
                     </div>
                     <div class="logos">
-                        <div class="gmail"> <a rel="author" href="https://plus.google.com/TU_ID_GOOGLE?rel=author" target="_blank"><img alt="Siguenos en Google+" src="https://lh5.googleusercontent.com/-F_FBKktZWZk/T3nN0v4FeAI/AAAAAAAAAsc/7dHTxkxn4cI/s32/google32.png" width=32 height=32  /></a></div>
+                        <div class="gmail"><a rel="author" href="https://plus.google.com/TU_ID_GOOGLE?rel=author" target="_blank"><img alt="Siguenos en Google+" src="https://lh5.googleusercontent.com/-F_FBKktZWZk/T3nN0v4FeAI/AAAAAAAAAsc/7dHTxkxn4cI/s32/google32.png" width=32 height=32  /></a></div>
                         <div class="gmail"><a href="http://www.linkedin.com/TU_PERFIL_PUBLICO" target="_blank"><img alt="Siguenos en Linkedin" src="https://lh5.googleusercontent.com/-8C0OdSp_7ZA/T3nN0G_313I/AAAAAAAAAsU/6_Hbu6Of3qU/s32/linkedin32.png" width=32 height=32  /></a></div>
                         <div class="gmail"><a href="URL_DE_TU_PERFIL_INSTAGRAM" target="_blank"><img alt="Siguenos en Blogger" src="https://lh5.googleusercontent.com/-vBqtz2iv2BE/UIqE3LQyFMI/AAAAAAAABgA/TJ4W-vIBjsc/s32/instagram32.png" width=32 height=32  /></a></div>
                         <div class="gmail"><a href="http://www.facebook.com/AQUI_TU_PAGINA" target="_blank"><img alt="Siguenos en Facebook" src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" width=32 height=32  /></a></div>

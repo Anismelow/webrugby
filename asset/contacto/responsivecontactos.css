@@ -24,15 +24,17 @@ br{
 .noestoyiniciado{
     display: none;
 }
-
+.ubicacion{
+    width: 90%;
+}
 .sticky{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50rem;
+    width: 100%;
 }
 
 .sticky > iframe{
-    width: 100%;
+    width: 95%;
     height: 85%;
 }
 .ubicacion_y_logos{
@@ -59,25 +61,42 @@ br{
         display: block;
         width: 38rem;
     }
-
-    .iconosfooter > a{
-        display: none;
-    }
-    
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:450px){
     body{
-     
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     #registrarse{
+        width: 100%;
         border:none;
+        margin:0;
+        padding: 0;
+
     }
     #registrarse > form{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
         display: block;
     }
+    .preguntainicio{
+        width: 90%;
+    }
+    .iniciarsesion > form{
+        padding: 0;
+        width: 100%;
+    }
     .sticky > iframe{
-        width: 40rem;
+        width: 90%;
     }
     .logos{
         display: none;
@@ -86,4 +105,37 @@ br{
         padding: 0;
         margin: 0;
     }
+    .ubicacion{
+        width: 100%;
+    }
+    .sticky{
+        width: 90%;
+        margin: 1rem;
+    }
+    .formulario{
+        border: none;
+    }
+    /* ---------------------desplegable--------------------- */
+    #registrarse > h3{
+        display: none;
+    }
+    #hazte_socio{
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        background-color: #a5d69b;
+        text-align: center;
+        width: 100%;
+        border: solid 3px rosybrown;
+    }
+    .oculto{
+        display: none !important;
+    }
+    #visible{
+        display: none;
+    }
+    #visible:checked ~ .oculto{
+        display: block !important;
+    }
+
 }

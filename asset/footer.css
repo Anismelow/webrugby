@@ -1,12 +1,7 @@
-body{
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-}
-
+/*cabecero navvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 img{
     max-width: 100%;
 }
-
 .main-nav{
     position:fixed;
     z-index: 100;
@@ -14,8 +9,9 @@ img{
     top: -0.5rem;
 }
 
+
 .toggle-menu{
-    position: absolute;  
+    position: absolute;
     top: 0.5rem;
     right: 1.5rem;
     cursor: pointer;
@@ -23,24 +19,13 @@ img{
     z-index: 1;
 
 }
+
 @media screen and (min-width:768px) {
     .toggle-menu{
         display: none;
     }
 }
 
-@media screen and (max-width:770px) {
-    .toggle-menu img{
-    filter: invert(1) ;
- }
-   
- .main-nav{
-    position:fixed;
-    z-index: 100;
-    width: 100%;
-    top: -0.5rem;
-}
-}
 
 
 .main-menu{
@@ -80,64 +65,23 @@ img{
     text-transform: uppercase;
     text-decoration: none;
 }
-
-.imagen{
-    height: auto;
-    width: 100%;
-}
-
-.imagen-gerni img{
-    height: auto;
-    width: 100%;    
-}
-
-.temporada{
-    height: auto;
-    width: 100%;
-    display: flex;
-   
-    justify-content: center;
-    margin-bottom:10rem ;
-    
-}
-h2{
-text-align: center;
-margin: 2rem 0rem 4rem 0rem;
-}
-
-.temporada iframe{
-    height: 40rem;
-    width: 100%;
-}
-
-
-
-.btn-temporada{
-
-    margin-top: 3rem;
-    border-radius: 10px;
-    padding:1.5em 2em;
-    margin-left: 40%;
-}
-
-.btn-temporada a{
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-
-}
-
-
+/* footer con copyright y logos */
 footer{
     background-color: #015201;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 footer > p{
     margin-top: 0.5rem;
 }
+
 .iconosfooter > a{
     margin-right: 4rem;
 }
-
+@media only screen and (max-width:720px){
+    .iconosfooter > a{
+        display: none;
+    }
+}

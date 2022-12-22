@@ -5,13 +5,15 @@
 *{
     font-family: 'Libre Baskerville', serif;
 }
-p{
+{
     color: grey;
     line-height: 1.5rem;
-    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> ;
-   
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
 }
 .micontainer {
     display: flex;
@@ -98,14 +100,56 @@ footer{
     background-color: #015201;
     display: flex;
     justify-content: space-evenly;
+   
+ 
 }
-
 footer > p{
     margin-top: 0.5rem;
-}
-.iconosfooter > a{
-    margin-right: 4rem;
 }
 /* p {
     margin-top: 3rem 0rem 20rem 0rem;
 } */
+
+@media screen and (max-width:770px) {
+    .toggle-menu img{
+    filter: invert(0) ;
+    }
+}
+@media screen and (max-width:450px) {
+
+.micontainer{
+    grid-column: auto;
+}
+.objetivos p {
+    margin: 0;
+}
+.objetivos1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    width: 100%;
+}
+.objetivos1 img{
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    margin: 0%;
+
+}
+.objetivos2 {
+    flex-direction: column;
+    justify-content: center;
+}.objetivos3 {
+    flex-direction: column;
+    justify-content: center;
+}.objetivos4 {
+    flex-direction: column;
+    justify-content: center;
+}
+
+    
+    }
+
+
+    
