@@ -115,4 +115,27 @@ br{
     .formulario{
         border: none;
     }
+    /* ---------------------desplegable--------------------- */
+    #registrarse > h3{
+        display: none;
+    }
+    #hazte_socio{
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        background-color: #a5d69b;
+        text-align: center;
+        width: 100%;
+        border: solid 3px rosybrown;
+    }
+    .oculto{
+        display: none !important;
+    }
+    #visible{
+        display: none;
+    }
+    #visible:checked ~ .oculto{
+        display: block !important;
+    }
+
 }
