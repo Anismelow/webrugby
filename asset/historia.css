@@ -137,6 +137,7 @@ footer > p{
     align-items: center;
     margin: 0rem;
     width: 100%;
+    margin-bottom: 2rem;
 }
 .objetivos1 img{
     justify-content: center;
@@ -148,9 +149,11 @@ footer > p{
 .objetivos2 {
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 2rem;
 }.objetivos3 {
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 2rem;
 }.objetivos4 {
     flex-direction: column;
     justify-content: center;
@@ -163,6 +166,9 @@ footer > p{
 h3{
     margin: 0rem 2rem 0rem 2rem;
     /* justify-content: center; */
+}
+h1{
+    margin-left: 1rem;
 }
     
     }
