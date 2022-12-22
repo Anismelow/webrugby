@@ -115,4 +115,41 @@ footer > p{
     filter: invert(0) ;
     }
 }
+@media screen and (max-width:450px) {
+
+.micontainer{
+    grid-column: auto;
+}
+.objetivos p {
+    margin: 0;
+}
+.objetivos1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    width: 100%;
+}
+.objetivos1 img{
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    margin: 0%;
+
+}
+.objetivos2 {
+    flex-direction: column;
+    justify-content: center;
+}.objetivos3 {
+    flex-direction: column;
+    justify-content: center;
+}.objetivos4 {
+    flex-direction: column;
+    justify-content: center;
+}
+
+    
+    }
+
+
     
